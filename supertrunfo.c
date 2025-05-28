@@ -14,9 +14,9 @@ struct Carta {
 };
 
 int main() {
-    // Criando duas cartas manualmente 
-    struct Carta carta1 = {"SP", "C001", "São Paulo", 12300000, 1521.11, 2300000.0, 15};
-    struct Carta carta2 = {"RJ", "C002", "Rio de Janeiro", 6700000, 1182.3, 850000.0, 10};
+    // Criando duas cartas 
+    struct Carta carta1 = {"SP", "A01", "São Paulo", 12300000, 1521.11, 2300000.0, 15};
+    struct Carta carta2 = {"RJ", "B02", "Rio de Janeiro", 6700000, 1182.3, 850000.0, 10};
 
     // Calculando densidade populacional (população / área)
     carta1.densidade = carta1.populacao / carta1.area;
